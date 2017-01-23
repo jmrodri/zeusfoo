@@ -1,8 +1,8 @@
-package main
+package zeusfoo
 
 import "fmt"
 
-func hello(msg string) {
+func Hello(msg string) {
 	fmt.Println("hello from zeusfoo library")
 	fmt.Println(msg)
 }

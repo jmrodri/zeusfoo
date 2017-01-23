@@ -1,8 +1,9 @@
 package main
 
 import "fmt"
+import "github.com/jmrodri/zeusfoo"
 
 func main() {
-	zeusfoo.hello("zeusfoo-client")
+	zeusfoo.Hello("zeusfoo-client")
 	fmt.Println("zeusfoo-client")
 }
